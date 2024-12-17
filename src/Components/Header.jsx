@@ -8,7 +8,7 @@ function Header() {
 
   const [toggleMenu,setToggleMenu]=useState(false)
   return (
-    <header className=" flex justify-between  px-5 py-2 bg-black"> 
+    <header className=" flex justify-between  px-5 py-2 bg-black "> 
       <div className="text-white text-2xl px-10  flex items-center"> 
       <FaClipboard className="mr-2" /> {/* FontAwesome icon with margin */}
       Shruthi
@@ -23,8 +23,8 @@ function Header() {
             <li ><a  className='hover:text-gray-600' href='#contact'>Contact</a></li>
             </ul>
             </nav>
-            {toggleMenu && <nav className='block md:hidden '> 
-            <ul onClick={()=>setToggleMenu(!toggleMenu)} className='flex flex-col text-white mobile-nav'>
+            {toggleMenu && <nav className='block md:hidden fixed top-0 left-0 w-full bg-black bg-opacity-90 z-30 '> 
+            <ul onClick={()=>setToggleMenu(!toggleMenu)} className='flex flex-col items-center justify-center text-white h-full mobile-nav'>
             <li ><a className='hover:text-gray-400' href='/'>Home</a></li>
             <li ><a className='hover:text-gray-400'  href='#about'>About</a></li>
             <li ><a className='hover:text-gray-400' href='#projects'>Projects</a></li>

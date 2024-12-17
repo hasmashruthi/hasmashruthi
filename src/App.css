@@ -21,7 +21,7 @@ header ul li{
 
 }
 .mobile-nav li{
-  @apply w-full h-full text-center border-b-2;
+  @apply w-full h-full text-center border-b flex items-center justify-center ;
 }
 
 .project-desc{
