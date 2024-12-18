@@ -1,5 +1,5 @@
 import React from 'react'
-import girl1 from '../assets/girl1.png'
+import girl1 from '../assets/girl1.jpeg'
 function Content() {
  
   return (
@@ -13,7 +13,7 @@ function Content() {
         
   
   <div className='bg-black text-white text-center py-16'>
-    <img src={girl1} alt=""className='mx-auto mb-8 w-48 h-48 rounded-full object-cover transform transition-tranform 
+    <img src={girl1} alt=""className='mx-auto mb-8 w-40 h-50 rounded-full object-cover border-2 border-blue-300 transform transition-tranform 
     duration-300 hover:scale-105'/>
     <h1 className='text-4xl font-bold'>I'm{" "}
           <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Hasma Shruthi</span>, Full-Stack Developer</h1>

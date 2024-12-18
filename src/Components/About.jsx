@@ -1,5 +1,5 @@
 import React from "react";
-import girl1 from "../assets/girl1.png";
+import girl1 from "../assets/girl4.png";
 function About() {
   const config = {
     para: "I am a passionate full-stack developer with expertise in building responsive and dynamic web applications. I specialize in crafting seamless front-end interfaces and robust back-end solutions, always striving to solve complex coding challenges and deliver solutions that are both efficient and adaptable",
@@ -25,7 +25,7 @@ function About() {
           <img
             src={girl1}
             alt=""
-            className="w-72 h-80 rounded-cover mb-8 md:mb-0"
+            className="w-50 h-60 rounded-lg mb-8 md:mb-0"
           />
           <div className="flex-1">
             <p className="text-lg mb-8">{config.para}</p>
