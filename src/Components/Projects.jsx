@@ -10,19 +10,22 @@ function Projects() {
             id:1,
             name:"HR Dashboard",
             image: HR2,
-            link:"https://github.com/shruthi1993S/HR-mangement-frontend"
+            link:"https://github.com/shruthi1993S/HR-mangement-frontend",
+            deployLink:"https://main--cheery-boba-2c435a.netlify.app/"
              },
             {
                 id:2,
                 name:"User Management system",
                 image: USER,
-                link:"https://github.com/shruthi1993S/user-management.git"
+                link:"https://github.com/shruthi1993S/user-management.git",
+                deployLink:"https://main--rad-selkie-fec49a.netlify.app/"
              },
              {
                 id:3,
                 name:"Ecommerce Hub",
                 image: shopping,
-                link:"https://github.com/shruthi1993S/redux-shopping-cart.git"
+                link:"https://github.com/shruthi1993S/redux-shopping-cart.git",
+                deployLink:"https://redux-shopping-cart-phi-plum.vercel.app/"
              },
 
     
@@ -54,7 +57,7 @@ function Projects() {
     //     </div>
     // </section>
 
-    <div className="bg-black text-white py-20" id="projects">
+    <div className="min-h-screen bg-black text-white py-20" id="projects">
     <div className="container mx-auto px-8 md:px-16 lg:px-24">
       <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -63,9 +66,15 @@ function Projects() {
                 hover:scale-105'> 
                     <img src={project.image} alt={project.name} className='rounded-lg mb-5 w-full h-48 object-cover'/>
                     <h3 className='text-xl font-bold mb-4 text-center'>{project.name}</h3>
+                    <div className="flex space-x-4 justify-center items-center ">
                     <a href={project.link} className="flex justify-center  bg-gradient-to-r 
               from-green-400 to-blue-500 text-white px-4 py-2 rounded-full " target="_blank" 
               rel="noopener noreferrer">GitHub</a>
+              <a href={project.deployLink} className="flex justify-center  bg-gradient-to-r 
+              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full " target="_blank" 
+              rel="noopener noreferrer">Preview</a>
+                    </div>
+                    
                 </div>
             ))}
             </div>

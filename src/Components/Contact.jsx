@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="bg-black text-white py-20" id="contact">
+    <div className=" min-h-screen bg-black text-white py-20" id="contact">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-12">Contact Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
@@ -17,7 +17,7 @@ function Contact() {
             <div className="mb-4 mt-8">
               <FaEnvelope className="inline-block text-green-400 mr-2" />
               <a href="mailto:youremail@example.com" className="hover:underline">
-                shruthiji06@exmple.com
+                shruthiji06@gmail.com
               </a>
             </div>
             <div className="flex items-center space-x-4 mb-4">

@@ -8,7 +8,9 @@ export default {
     extend: {},
     fontFamily:{
       'content-font':"sriracha"
-    }
+    },textAlign: {
+      justify: 'justify',
+    },
   },
   plugins: [],
 }

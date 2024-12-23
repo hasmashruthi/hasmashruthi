@@ -1,5 +1,6 @@
 import React from 'react'
 import girl1 from '../assets/girl1.jpeg'
+import { FaDownload } from 'react-icons/fa';
 function Content() {
  
   return (
@@ -12,19 +13,21 @@ function Content() {
         // </section>
         
   
-  <div className='bg-black text-white text-center py-16'>
+  <div className='min-h-screen bg-black text-white text-center py-8'>
     <img src={girl1} alt=""className='mx-auto mb-8 w-40 h-50 rounded-full object-cover border-2 border-blue-300 transform transition-tranform 
     duration-300 hover:scale-105'/>
-    <h1 className='text-4xl font-bold'>I'm{" "}
-          <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Hasma Shruthi</span>, Full-Stack Developer</h1>
+    <h1 className='text-2xl font-bold'>Hi! I'm{" "}
+          <span className=' text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>Hasma Shruthi</span> 👋🏻 <br/><br/>
+          <span className='text-5xl italic'> Full-Stack Developer </span></h1>
     <p className='mt-4 text-lg text-gray-300'>I excel in building innovative and responsive web applications</p>
+    
     <div className='mt-8 space-x-4'>
-      
     <a href="https://drive.google.com/file/d/1nkBEKQxUIT_6yKGsUCUEdlqxva54jvJc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-  <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline 
-    transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>
-    Resume
-  </button>
+    <button
+      className="bg-gradient-to-r from-green-400 to-blue-500 text-white inline-flex 
+        items-center justify-center transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
+    >   Resume <FaDownload className="ml-2" />
+    </button>
 </a>
 
     </div>
