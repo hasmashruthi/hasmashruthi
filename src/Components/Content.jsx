@@ -22,7 +22,7 @@ function Content() {
     <p className='mt-4 text-lg text-gray-300'>I excel in building innovative and responsive web applications</p>
     
     <div className='mt-8 space-x-4'>
-    <a href="https://drive.google.com/file/d/1nkBEKQxUIT_6yKGsUCUEdlqxva54jvJc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+    <a href="https://drive.google.com/file/d/1nHlccmKXBTIBJbEvzkKoqQmy6b6gj8vP/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <button
       className="bg-gradient-to-r from-green-400 to-blue-500 text-white inline-flex 
         items-center justify-center transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
